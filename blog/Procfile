@@ -1,1 +1,1 @@
-web: gunicorn dyno.wsgi
+web: gunicorn dyno.wsgi:application
